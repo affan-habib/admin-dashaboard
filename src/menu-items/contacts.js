@@ -8,31 +8,27 @@ const icons = {
 
 // ==============================|| EXTRA PAGES MENU ITEMS ||============================== //
 
-const pages = {
-    id: 'pages',
-    title: 'Pages',
-    caption: 'Pages Caption',
+const contacts = {
+    id: 'contacts',
     type: 'group',
     children: [
         {
-            id: 'authentication',
-            title: 'Authentication',
+            id: 'contacts',
+            title: 'My Contacts',
             type: 'collapse',
             icon: icons.IconKey,
-
             children: [
                 {
-                    id: 'login3',
-                    title: 'Login',
+                    id: 'data',
+                    title: 'Data',
                     type: 'item',
-                    url: '/pages/login/login3',
-                    target: true
+                    url: '/sample-page'
                 },
                 {
-                    id: 'register3',
-                    title: 'Register',
+                    id: 'section',
+                    title: 'Sections',
                     type: 'item',
-                    url: '/pages/register/register3',
+                    url: '/sample-page',
                     target: true
                 }
             ]
@@ -40,4 +36,4 @@ const pages = {
     ]
 };
 
-export default pages;
+export default contacts;
